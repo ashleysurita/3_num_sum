@@ -1,7 +1,6 @@
 function threeNumberSum(array, targetSum) {
 	// sort the array in place
 	array.sort((a, b) => a - b)
-	console.log(array)
 	let triplets = []
 	for(let i = 0; i < array.length - 1; i++){
 		// left is directly next to current val
